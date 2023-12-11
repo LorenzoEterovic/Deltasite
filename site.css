@@ -1,9 +1,13 @@
+body{
+    background-color: black;
+};
 .btn1{
     color: aqua;
+    align-items: end;
 };
 .div1{
     height: 100%;
     width: 100%;
     background-color: black;
     color: azure;
-}
+};
