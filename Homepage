@@ -1,0 +1,16 @@
+<html>
+    <head>MercadoFechado</head>
+    <meta charset="utf-8">
+    <script href="site.css"></script>
+    <body>
+        <nav>
+            <h1>Mercado Fechado</h1>
+            <button>Categorias</button>
+            <button>Vender</button>
+            <Button>Contato</Button>
+            <button>Crie sua Conta</button>
+            <button>Login</button>
+        </nav>
+        <footer></footer>
+    </body>
+</html>
