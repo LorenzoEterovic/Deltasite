@@ -1,4 +1,28 @@
 body{
-    background-color: grey;
-};
+    background-color: aquamarine;
+}
+.btn{
+    background-color:black;
+    color: white;
+    border-style: solid;
+    border-radius: 20%;
+    align-items: end;
+}
+.slogan {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+}
+h2{
+    width: 185px;
+    text-decoration: underline 2px white;
+    margin-left: 1%;
+    margin-right: 0%;
+    padding-top: 8px;
+}
+.navbar{
+    background-image: black;
+   
+}
 

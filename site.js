@@ -1,7 +1,3 @@
-function{
-    const btn1;
-    const div1;
+function update(){
+document.getElementById("demo").style.borderRadius = "20%";
 };
-if(onclick=(btn1)){
-    alert=""
-}

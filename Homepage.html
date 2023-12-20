@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mercado Fechado</title>
+        <title id="title">Mercado Fechado</title>
         <meta charset="utf-8">
-        <script href="site.css"></script>
+        <link rel="stylesheet" href="site.css">
+        <script src="site.js"></script>
     </head>
-    <body style="background-color: aquamarine;">
-        <nav style="background-color: black; width: 100%; ">
-            <navbar>
-                <h2 style="color: azure;">Mercado Fechado</h2>
-                <button>Categorias</button>
-                <button>Vender</button>
-                <Button>Contato</Button>
-                <button>Crie sua Conta</button>
-                <button>Login</button>
-            </navbar>
-        </nav><br><br>
-        <div>
+    <body>
+        <div class="navbar">
+            <nav style="background-color: black; width: 100%; ">
+                <navbar>
+                    
+                    <h2 style="color: azure;">Mercado Fechado</h2>
+                    <button class="btn" id="demo">Categorias</button>
+                    <button class="btn" onclick="update()">Vender</button>
+                    <Button class="btn" >Contato</Button>
+                    <button class="btn" >Crie sua Conta</button>
+                    <button class="btn" >Login</button>
+                </navbar>
+            </nav>
+        </div>
+        <br><br>
+
+        <div class="slogan">
             <p>O Mercado Fechado é o mercado de vendas online menos custo beneficio do Brasil, posto no GuinesBook por este feito.</p>
         </div>
         <footer></footer>
+        
     </body>
 </html>
