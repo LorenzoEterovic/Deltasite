@@ -1,36 +1,41 @@
 body{
     background-color: aquamarine;
 }
+
 .btn{
     background-color:black;
     color: white;
     border-style: solid;
     border-radius: 20%;
-    align-items: end;
+    padding-left: 70px;
 }
+
 .slogan {
     border-style: solid;
     border-color: black;
     background-color: white;
     text-align: center;
 }
+
 h2{
-    width: 185px;
     text-decoration: underline 2px white;
-    margin-left: 1%;
-    margin-right: 0%;
-    padding-top: 8px;
 }
-.navbar{
-    background-image: black;
+
+.nav{
+    background-color: black;
+    width: 100%;
+    height: max-content;
+    display: flex;
    
 }
+
 .container{
     display: flex;
     width: 100%;
     height: 200px;
     color: aliceblue;
     font-size: 26px;
+   
 
 }
 .grafic1{
@@ -55,4 +60,22 @@ h3{
     color: black;
     text-decoration: underline 2px black;
 }
-
+.btnG{
+    background-color: aliceblue;
+    float: left;
+    border-style: hidden;
+    height: 20px;
+}
+.graficY{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 20px;
+    width: max-content;
+}
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+}

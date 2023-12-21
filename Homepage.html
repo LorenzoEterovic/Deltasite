@@ -7,18 +7,15 @@
         <script src="site.js"></script>
     </head>
     <body>
-        <div class="navbar">
-            <nav style="background-color: black; width: 100%; ">
-                <navbar>
-                    
-                    <h2 style="color: azure;">Mercado Fechado</h2>
-                    <button class="btn" id="demo">Categorias</button>
-                    <button class="btn" onclick="update()">Vender</button>
-                    <Button class="btn" >Contato</Button>
-                    <button class="btn" >Crie sua Conta</button>
-                    <button class="btn" >Login</button>
-                </navbar>
-            </nav>
+        <div class="nav">
+                    <ul>
+                        <li><h2 style="color: azure;">Mercado Fechado</h2></li>
+                        <li><button class="btn" id="demo">Categorias</button></li>
+                        <li><button class="btn" onclick="update()">Vender</button></li>
+                        <li><Button class="btn" >Contato</Button></li>
+                        <li><button class="btn" >Crie sua Conta</button></li>
+                        <li><button class="btn" >Login</button></li>
+                    </ul>
         </div>
         <br><br>
 
@@ -30,16 +27,20 @@
         <div class="container">
             <div class="grafic1" style="background-color: green;">
                 <p>Roubo de carga:<br>
-                    <span style="font-size: 48px;">29%</span></p>
+                    <span style="font-size: 48px;" id="1%">29%</span></p>
             </div>
             <div class="grafic2" style="background-color: red;">
                 <p>Trabalho escravo com mão de obra Chinesa:<br>
-                    <span style="font-size: 48px;">56%</span></p>
+                    <span style="font-size: 48px;" id="2%">56%</span></p>
             </div>
             <div class="grafic3" style="background-color: blue;">
                 <p>Comprado via revendas:<br>
-                    <span style="font-size: 48px;">15%</span></p>
+                    <span style="font-size: 48px;" id="3%">15%</span></p>
             </div>
+        </div>
+        <div class="graficY">
+            <button class="btnG" id="gy1" onclick="year1()" onclick="year()">2022</button>
+            <button class="btnG" id="gy2" onclick="year2()" onclick="year()">2023</button>
         </div>
         <footer></footer>
         
