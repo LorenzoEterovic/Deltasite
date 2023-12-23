@@ -8,6 +8,8 @@ body{
     border-style: solid;
     border-radius: 20%;
     padding-left: 70px;
+    
+    
 }
 
 .slogan {
@@ -19,6 +21,8 @@ body{
 
 h2{
     text-decoration: underline 2px white;
+    position: fixed;
+    top:0;
 }
 
 .nav{
@@ -75,6 +79,7 @@ h3{
 }
 li{
     float: left;
+    
 }
 ul{
     list-style-type: none;
