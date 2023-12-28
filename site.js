@@ -1,6 +1,6 @@
-function update(){
-document.getElementById("demo").style.borderRadius = "20%";
-};
+function theme(){
+   document.getElementsByid("body").style.backgroundColor = "white";
+}
 
 function year1(){
    document.getElementById("gy1").style.backgroundColor = "gray";

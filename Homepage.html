@@ -6,15 +6,24 @@
         <link rel="stylesheet" href="site.css">
         <script src="site.js"></script>
     </head>
-    <body>
+    <body id="body">
         <div class="nav">
+            <h2 style="color: azure;">Mercado Fechado</h2>
                     <ul>
-                        <li><h2 style="color: azure;">Mercado Fechado</h2></li>
-                        <li><button class="btn" id="demo">Categorias</button></li>
-                        <li><button class="btn" onclick="update()">Vender</button></li>
+                        <li class="dropdown">
+                            <a class="dropbtn">Categorias
+                               <div class="dropdown-content">
+                                    <a>Roupas</a>
+                                    <a>Eletrodomesticos</a>
+                                    <a>Moveis</a>
+                               </div>  
+                            </a>
+                        </li>
+                        <li><button class="btn" >Vender</button></li>
                         <li><Button class="btn" >Contato</Button></li>
                         <li><button class="btn" >Crie sua Conta</button></li>
                         <li><button class="btn" >Login</button></li>
+                        <li><button id="theme" onclick="theme()">O</button></li>
                     </ul>
         </div>
         <br><br>
