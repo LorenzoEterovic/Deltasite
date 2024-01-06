@@ -5,12 +5,12 @@ function theme(){
 function year1(){
    document.getElementById("gy1").style.backgroundColor = "gray";
    document.getElementById("gy2").style.backgroundColor = "white";
-};
+}
 
 function year2(){
     document.getElementById("gy2").style.backgroundColor = "gray";
     document.getElementById("gy1").style.backgroundColor = "white";
- };
+ }
 
  function year(){
     if(onclick=("gy1")){
@@ -19,6 +19,15 @@ function year2(){
         document.getElementById("3%").innerHTML = "27%";
     }
  }
+
+let adm;
+adm={
+   txt:"oi"
+}
+
+
+
+
 
 
 
